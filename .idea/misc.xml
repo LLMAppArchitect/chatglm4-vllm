@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="phi3-vllm" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="phi3-vllm" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="chatglm4-vllm" project-jdk-type="Python SDK" />
 </project>
