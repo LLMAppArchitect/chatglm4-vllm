@@ -9,6 +9,8 @@ from vllm import LLM, SamplingParams
 app = FastAPI()
 
 max_model_len = 12800
+
+# https://huggingface.co/THUDM/glm-4-9b-chat
 model_name = "THUDM/glm-4-9b-chat"
 
 stop_token_ids = [151329, 151336, 151338]
