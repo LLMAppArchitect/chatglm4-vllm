@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment=".idea" />
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="https://huggingface.co/THUDM/glm-4-9b-chat">
+      <change afterPath="$PROJECT_DIR$/example_blog2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glm4_9b_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/glm4_9b_api.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +79,8 @@
       <workItem from="1717585365486" duration="1616000" />
       <workItem from="1717587882771" duration="2189000" />
       <workItem from="1718624144668" duration="1065000" />
-      <workItem from="1719035581549" duration="974000" />
+      <workItem from="1719035581549" duration="1301000" />
+      <workItem from="1719230232515" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -93,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719036439765</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="https://huggingface.co/THUDM/glm-4-9b-chat">
+      <option name="closed" value="true" />
+      <created>1719036754710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719036754710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]" />
     <MESSAGE value=".idea" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+    <MESSAGE value="https://huggingface.co/THUDM/glm-4-9b-chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://huggingface.co/THUDM/glm-4-9b-chat" />
   </component>
 </project>
