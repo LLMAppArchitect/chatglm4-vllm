@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="https://huggingface.co/THUDM/glm-4-9b-chat">
-      <change afterPath="$PROJECT_DIR$/example_blog2.md" afterDir="false" />
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="example_blog2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glm4_9b_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/glm4_9b_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +58,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
-        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -81,6 +79,11 @@
       <workItem from="1718624144668" duration="1065000" />
       <workItem from="1719035581549" duration="1301000" />
       <workItem from="1719230232515" duration="280000" />
+      <workItem from="1719248572374" duration="106000" />
+      <workItem from="1719727380745" duration="830000" />
+      <workItem from="1719730476733" duration="27000" />
+      <workItem from="1719731596276" duration="1940000" />
+      <workItem from="1719750367176" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -106,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719036754710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="example_blog2">
+      <option name="closed" value="true" />
+      <created>1719248665042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719248665042</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +127,7 @@
     <MESSAGE value="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]" />
     <MESSAGE value=".idea" />
     <MESSAGE value="https://huggingface.co/THUDM/glm-4-9b-chat" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://huggingface.co/THUDM/glm-4-9b-chat" />
+    <MESSAGE value="example_blog2" />
+    <option name="LAST_COMMIT_MESSAGE" value="example_blog2" />
   </component>
 </project>

@@ -206,8 +206,18 @@ class InputData(BaseModel):
     max_tokens: int
 
 
+import time
+from datetime import datetime
+
+
+seg = "==================================================================================================================================================================================================="
+
 @app.post("/v1/chat/completions")
 def completions(input_data: InputData):
+    s = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    start = int(time.time())
+    print(f'开始时间:{s}')
+
     print(input_data)
 
     prompt = [
@@ -230,6 +240,13 @@ def completions(input_data: InputData):
     text = outputs[0].outputs[0].text
 
     print(text)
+
+    print(seg)
+    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    end = int(time.time())
+    print(f'结束时间:{t}')
+    print(f'总字数:{len(text)}')
+    print(f'耗时：{end - start} 秒)')
 
     return text
 
