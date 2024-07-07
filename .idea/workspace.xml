@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="example_blog2">
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="add: &#10;    print(seg)&#10;    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')&#10;    end = int(time.time())&#10;    print(f'结束时间:{t}')&#10;    print(f'总字数:{len(text)}')&#10;    print(f'耗时：{end - start} 秒)')">
+      <change afterPath="$PROJECT_DIR$/NOTE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_internlm.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_chatglm4.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_internlm.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kill.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +92,8 @@
       <workItem from="1719730476733" duration="27000" />
       <workItem from="1719731596276" duration="1940000" />
       <workItem from="1719750367176" duration="1299000" />
+      <workItem from="1719946933369" duration="503000" />
+      <workItem from="1720363929640" duration="7135000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -117,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719248665042</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add: &#10;    print(seg)&#10;    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')&#10;    end = int(time.time())&#10;    print(f'结束时间:{t}')&#10;    print(f'总字数:{len(text)}')&#10;    print(f'耗时：{end - start} 秒)')">
+      <option name="closed" value="true" />
+      <created>1719947098039</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719947098039</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +146,7 @@
     <MESSAGE value=".idea" />
     <MESSAGE value="https://huggingface.co/THUDM/glm-4-9b-chat" />
     <MESSAGE value="example_blog2" />
-    <option name="LAST_COMMIT_MESSAGE" value="example_blog2" />
+    <MESSAGE value="add: &#10;    print(seg)&#10;    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')&#10;    end = int(time.time())&#10;    print(f'结束时间:{t}')&#10;    print(f'总字数:{len(text)}')&#10;    print(f'耗时：{end - start} 秒)')" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: &#10;    print(seg)&#10;    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')&#10;    end = int(time.time())&#10;    print(f'结束时间:{t}')&#10;    print(f'总字数:{len(text)}')&#10;    print(f'耗时：{end - start} 秒)')" />
   </component>
 </project>
