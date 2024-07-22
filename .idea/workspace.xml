@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="add: &#10;    print(seg)&#10;    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')&#10;    end = int(time.time())&#10;    print(f'结束时间:{t}')&#10;    print(f'总字数:{len(text)}')&#10;    print(f'耗时：{end - start} 秒)')">
-      <change afterPath="$PROJECT_DIR$/NOTE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_internlm.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_chatglm4.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_internlm.sh" afterDir="false" />
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="RUN LLM internlm2_5-7b-chat&#10;&#10;#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 RAY_memory_usage_threshold=0.8 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python -m vllm.entrypoints.openai.api_server --model internlm/internlm2_5-7b-chat --served-model-name internlm2_5-7b-chat --trust-remote-code --port 8082 --device cuda --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kill.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +86,8 @@
       <workItem from="1719731596276" duration="1940000" />
       <workItem from="1719750367176" duration="1299000" />
       <workItem from="1719946933369" duration="503000" />
-      <workItem from="1720363929640" duration="7135000" />
+      <workItem from="1720363929640" duration="7180000" />
+      <workItem from="1721664516388" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -135,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719947098039</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="RUN LLM internlm2_5-7b-chat&#10;&#10;#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 RAY_memory_usage_threshold=0.8 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python -m vllm.entrypoints.openai.api_server --model internlm/internlm2_5-7b-chat --served-model-name internlm2_5-7b-chat --trust-remote-code --port 8082 --device cuda --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 1">
+      <option name="closed" value="true" />
+      <created>1720374596623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720374596623</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +149,7 @@
     <MESSAGE value="https://huggingface.co/THUDM/glm-4-9b-chat" />
     <MESSAGE value="example_blog2" />
     <MESSAGE value="add: &#10;    print(seg)&#10;    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')&#10;    end = int(time.time())&#10;    print(f'结束时间:{t}')&#10;    print(f'总字数:{len(text)}')&#10;    print(f'耗时：{end - start} 秒)')" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: &#10;    print(seg)&#10;    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')&#10;    end = int(time.time())&#10;    print(f'结束时间:{t}')&#10;    print(f'总字数:{len(text)}')&#10;    print(f'耗时：{end - start} 秒)')" />
+    <MESSAGE value="RUN LLM internlm2_5-7b-chat&#10;&#10;#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 RAY_memory_usage_threshold=0.8 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python -m vllm.entrypoints.openai.api_server --model internlm/internlm2_5-7b-chat --served-model-name internlm2_5-7b-chat --trust-remote-code --port 8082 --device cuda --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="RUN LLM internlm2_5-7b-chat&#10;&#10;#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 RAY_memory_usage_threshold=0.8 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python -m vllm.entrypoints.openai.api_server --model internlm/internlm2_5-7b-chat --served-model-name internlm2_5-7b-chat --trust-remote-code --port 8082 --device cuda --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 1" />
   </component>
 </project>

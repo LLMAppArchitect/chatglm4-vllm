@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ps -ef|grep 'ray::RayWorkerWrapper.execute_method'|awk '{print $2}'| xargs kill -9
+ps -ef|grep -E 'RayWorkerWrapper|vllm.entrypoints.openai.api_server'|awk '{print $2}'| xargs kill -9
