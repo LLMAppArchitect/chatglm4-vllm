@@ -65,3 +65,6 @@ response:
 ``` 
 {"id":"cmpl-25d39164459342c8a75702c5822ff768","object":"chat.completion","created":1720366850,"model":"internlm2_5-7b-chat","choices":[{"index":0,"message":{"role":"assistant","content":"Deep learning is a subset of machine learning that involves training artificial neural networks to recognize patterns in data. These neural networks are composed of multiple layers of interconnected nodes that are designed to mimic the structure and function of the human brain. By feeding large amounts of data through these networks, deep learning algorithms can learn to recognize complex patterns and make predictions or decisions with high accuracy. Deep learning is used in a variety of applications, including image and speech recognition, natural language processing, and autonomous vehicles."},"logprobs":null,"finish_reason":"stop","stop_reason":92542}],"usage":{"prompt_tokens":28,"total_tokens":127,"completion_tokens":99}}
 ```
+
+
+
