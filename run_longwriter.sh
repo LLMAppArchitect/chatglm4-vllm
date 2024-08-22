@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+RAY_memory_monitor_refresh_ms=0 RAY_memory_usage_threshold=0.8 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python -m vllm.entrypoints.openai.api_server --model THUDM/LongWriter-glm4-9b --served-model-name THUDM/LongWriter-glm4-9b --trust-remote-code --port 8082 --max-model-len 32768 --device cuda --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 4

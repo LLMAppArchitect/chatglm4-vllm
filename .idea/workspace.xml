@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="#!/usr/bin/env bash&#10;ps -ef|grep -E 'RayWorkerWrapper|vllm.entrypoints.openai.api_server'|awk '{print $2}'| xargs kill -9">
-      <change afterPath="$PROJECT_DIR$/run_llama.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_mistral.sh" afterDir="false" />
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="--gpu-memory-utilization 0.9 --swap-space 2">
+      <change afterPath="$PROJECT_DIR$/run_longwriter.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_longwriter.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_internlm.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_internlm.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +63,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
       </set>
     </attachedChunks>
   </component>
@@ -92,7 +93,8 @@
       <workItem from="1720363929640" duration="7180000" />
       <workItem from="1721664516388" duration="653000" />
       <workItem from="1721666765127" duration="283000" />
-      <workItem from="1722092608104" duration="4003000" />
+      <workItem from="1722092608104" duration="4026000" />
+      <workItem from="1724345111024" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -150,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721667039509</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="--gpu-memory-utilization 0.9 --swap-space 2">
+      <option name="closed" value="true" />
+      <created>1722103905246</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722103905246</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +174,7 @@
     <MESSAGE value="add: &#10;    print(seg)&#10;    t = datetime.now().strftime('%Y-%m-%d %H:%M:%S')&#10;    end = int(time.time())&#10;    print(f'结束时间:{t}')&#10;    print(f'总字数:{len(text)}')&#10;    print(f'耗时：{end - start} 秒)')" />
     <MESSAGE value="RUN LLM internlm2_5-7b-chat&#10;&#10;#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 RAY_memory_usage_threshold=0.8 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python -m vllm.entrypoints.openai.api_server --model internlm/internlm2_5-7b-chat --served-model-name internlm2_5-7b-chat --trust-remote-code --port 8082 --device cuda --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 1" />
     <MESSAGE value="#!/usr/bin/env bash&#10;ps -ef|grep -E 'RayWorkerWrapper|vllm.entrypoints.openai.api_server'|awk '{print $2}'| xargs kill -9" />
-    <option name="LAST_COMMIT_MESSAGE" value="#!/usr/bin/env bash&#10;ps -ef|grep -E 'RayWorkerWrapper|vllm.entrypoints.openai.api_server'|awk '{print $2}'| xargs kill -9" />
+    <MESSAGE value="--gpu-memory-utilization 0.9 --swap-space 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="--gpu-memory-utilization 0.9 --swap-space 2" />
   </component>
 </project>

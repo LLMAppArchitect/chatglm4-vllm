@@ -7,6 +7,9 @@ run:
 run_internlm:
 	./run_internlm.sh
 
+run_longwriter:
+	./run_longwriter.sh
+
 ca:
 	./conda_activate.sh
 
