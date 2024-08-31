@@ -74,4 +74,7 @@ THUDM/LongWriter-glm4-9b
 
 ```
 
-
+## WriteBookAIGC
+```
+curl -X GET "http://127.0.0.1:9000/api/ai/WriteBookRandomlyWithLLM?model=LongWriter" -H  "Request-Origion:SwaggerBootstrapUi" -H  "accept:*/*"
+```

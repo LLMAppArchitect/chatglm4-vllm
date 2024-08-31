@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="THUDM/LongWriter-glm4-9b">
-      <change afterPath="$PROJECT_DIR$/write_longwriter10.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_longwriter30.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_longwriter50.sh" afterDir="false" />
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="write_longwriter50">
+      <change afterPath="$PROJECT_DIR$/write_book.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_book10.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_book30.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_book50.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +63,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
-        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
@@ -94,7 +95,8 @@
       <workItem from="1721666765127" duration="283000" />
       <workItem from="1722092608104" duration="4026000" />
       <workItem from="1724345111024" duration="2642000" />
-      <workItem from="1724350066794" duration="342000" />
+      <workItem from="1724350066794" duration="362000" />
+      <workItem from="1725086152772" duration="4370000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -168,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724347864332</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="write_longwriter50">
+      <option name="closed" value="true" />
+      <created>1724350422158</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724350422160</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +194,7 @@
     <MESSAGE value="#!/usr/bin/env bash&#10;ps -ef|grep -E 'RayWorkerWrapper|vllm.entrypoints.openai.api_server'|awk '{print $2}'| xargs kill -9" />
     <MESSAGE value="--gpu-memory-utilization 0.9 --swap-space 2" />
     <MESSAGE value="THUDM/LongWriter-glm4-9b" />
-    <option name="LAST_COMMIT_MESSAGE" value="THUDM/LongWriter-glm4-9b" />
+    <MESSAGE value="write_longwriter50" />
+    <option name="LAST_COMMIT_MESSAGE" value="write_longwriter50" />
   </component>
 </project>
