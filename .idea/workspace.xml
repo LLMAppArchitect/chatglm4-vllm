@@ -4,13 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="write_longwriter50">
-      <change afterPath="$PROJECT_DIR$/write_book.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_book10.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_book30.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_book50.sh" afterDir="false" />
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="write_book.sh">
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/.mdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/.msc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/.mv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/figures/benchmark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/generation_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/model.safetensors.index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_deepseek.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snapshot_download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_interview.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_interview10.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_interview30.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_interview50.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_longwriter20.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_outline.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_outline10.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_outline20.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kill.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write_longwriter10.sh" beforeDir="false" afterPath="$PROJECT_DIR$/write_longwriter10.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write_longwriter30.sh" beforeDir="false" afterPath="$PROJECT_DIR$/write_longwriter30.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +66,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/me/PycharmProjects/chatglm4-vllm&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -63,8 +85,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
+        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
       </set>
     </attachedChunks>
   </component>
@@ -96,7 +118,9 @@
       <workItem from="1722092608104" duration="4026000" />
       <workItem from="1724345111024" duration="2642000" />
       <workItem from="1724350066794" duration="362000" />
-      <workItem from="1725086152772" duration="4370000" />
+      <workItem from="1725086152772" duration="4452000" />
+      <workItem from="1738684107596" duration="1128000" />
+      <workItem from="1739196902462" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -178,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724350422160</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="write_book.sh">
+      <option name="closed" value="true" />
+      <created>1725132378272</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725132378272</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +227,7 @@
     <MESSAGE value="--gpu-memory-utilization 0.9 --swap-space 2" />
     <MESSAGE value="THUDM/LongWriter-glm4-9b" />
     <MESSAGE value="write_longwriter50" />
-    <option name="LAST_COMMIT_MESSAGE" value="write_longwriter50" />
+    <MESSAGE value="write_book.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="write_book.sh" />
   </component>
 </project>

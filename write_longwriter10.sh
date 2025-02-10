@@ -7,5 +7,5 @@ for i in {1..10} ; do
     # 执行curl命令
     curl -X GET "http://127.0.0.1:9000/api/ai/WriteBlogRandomlyWithLLM?model=LongWriter" -H  "Request-Origion:SwaggerBootstrapUi" -H  "accept:*/*"
     # 暂停n秒钟
-    sleep 5
+    sleep 10
 done

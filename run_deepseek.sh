@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+vllm serve "model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4" --host 0.0.0.0 --port 8082 --gpu-memory-utilization 0.9 --served-model-name "tclf90/deepseek-r1-distill-qwen-14b-gptq-int4" --tensor-parallel-size 2 --max-model-len 32768 --device cuda --enforce-eager
