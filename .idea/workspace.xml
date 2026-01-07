@@ -4,34 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="write_book.sh">
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/.mdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/.msc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/.mv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/figures/benchmark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/model.safetensors.index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/tokenizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/tclf90/deepseek-r1-distill-qwen-14b-gptq-int4/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_deepseek.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snapshot_download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_interview.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_interview10.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_interview30.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_interview50.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_longwriter20.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_outline.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_outline10.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_outline20.sh" afterDir="false" />
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="write_longwriter5.sh">
+      <change afterPath="$PROJECT_DIR$/run_qwen.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chatglm4-vllm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chatglm4-vllm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kill.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/write_longwriter10.sh" beforeDir="false" afterPath="$PROJECT_DIR$/write_longwriter10.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/write_longwriter30.sh" beforeDir="false" afterPath="$PROJECT_DIR$/write_longwriter30.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_glm4.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/me/PycharmProjects/chatglm4-vllm&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHELLCHECK.PATH": "/home/me/.local/share/JetBrains/PyCharm2025.3/Shell Script/shellcheck",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/me/PycharmProjects/chatglm4-vllm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -85,8 +65,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
-        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
@@ -120,7 +100,10 @@
       <workItem from="1724350066794" duration="362000" />
       <workItem from="1725086152772" duration="4452000" />
       <workItem from="1738684107596" duration="1128000" />
-      <workItem from="1739196902462" duration="628000" />
+      <workItem from="1739196902462" duration="1432000" />
+      <workItem from="1745861184295" duration="1455000" />
+      <workItem from="1747416265391" duration="142000" />
+      <workItem from="1767799465526" duration="2287000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -210,7 +193,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725132378272</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="run_deepseek.sh">
+      <option name="closed" value="true" />
+      <created>1739197541894</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739197541894</updated>
+    </task>
+    <task id="LOCAL-00013" summary="write_longwriter5.sh">
+      <option name="closed" value="true" />
+      <created>1745861635311</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745861635311</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +227,8 @@
     <MESSAGE value="THUDM/LongWriter-glm4-9b" />
     <MESSAGE value="write_longwriter50" />
     <MESSAGE value="write_book.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="write_book.sh" />
+    <MESSAGE value="run_deepseek.sh" />
+    <MESSAGE value="write_longwriter5.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="write_longwriter5.sh" />
   </component>
 </project>
