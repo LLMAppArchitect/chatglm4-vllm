@@ -9,5 +9,7 @@ python -m vllm.entrypoints.openai.api_server \
     --trust-remote-code \
     --port 8083 \
     --tensor-parallel-size 2 \
-    --gpu-memory-utilization 0.95 \
-    --swap-space 1
+    --gpu-memory-utilization 0.88 \
+    --swap-space 2 \
+    --max-model-len 16384 \
+    --max-num-seqs 64
