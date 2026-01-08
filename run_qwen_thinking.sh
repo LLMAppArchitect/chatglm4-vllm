@@ -11,5 +11,5 @@ python -m vllm.entrypoints.openai.api_server \
     --tensor-parallel-size 2 \
     --gpu-memory-utilization 0.88 \
     --swap-space 2 \
-    --max-model-len 20480 \
+    --max-model-len 40960 \
     --max-num-seqs 64
