@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="write_longwriter5.sh">
-      <change afterPath="$PROJECT_DIR$/run_qwen.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/chatglm4-vllm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chatglm4-vllm.iml" afterDir="false" />
+    <list default="true" id="c978e7d7-4b1e-45bc-a695-e10813607882" name="Changes" comment="#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 \&#10;RAY_memory_usage_threshold=0.8 \&#10;PYTORCH_ALLOC_CONF=expandable_segments:True \&#10;CUDA_VISIBLE_DEVICES=0,1 \&#10;python -m vllm.entrypoints.openai.api_server \&#10;    --model Qwen/Qwen3-4B-Thinking-2507 \&#10;    --served-model-name Qwen/Qwen3-4B-Thinking-2507 \&#10;    --trust-remote-code \&#10;    --port 8083 \&#10;    --tensor-parallel-size 2 \&#10;    --gpu-memory-utilization 0.95 \&#10;    --swap-space 1">
+      <change afterPath="$PROJECT_DIR$/run_qwen_thinking.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_glm4.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_qwen.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_qwen_chat.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LLMAppArchitect/chatglm4-vllm&quot;,
-    &quot;accountId&quot;: &quot;6b7f8026-a38d-4100-b0ac-0dff316486dc&quot;
+    &quot;url&quot;: &quot;https://Jason-Chen-2017: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@github.com/LLMAppArchitect/chatglm4-vllm.git&quot;,
+    &quot;accountId&quot;: &quot;9156c41b-2b25-4ebd-be40-813d604744d4&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -40,23 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHELLCHECK.PATH": "/home/me/.local/share/JetBrains/PyCharm2025.3/Shell Script/shellcheck",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/me/PycharmProjects/chatglm4-vllm",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/home/me/.local/share/JetBrains/PyCharm2025.3/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/me/PycharmProjects/chatglm4-vllm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -103,7 +105,11 @@
       <workItem from="1739196902462" duration="1432000" />
       <workItem from="1745861184295" duration="1455000" />
       <workItem from="1747416265391" duration="142000" />
-      <workItem from="1767799465526" duration="2287000" />
+      <workItem from="1767799465526" duration="2707000" />
+      <workItem from="1767804596373" duration="2201000" />
+      <workItem from="1767807075952" duration="747000" />
+      <workItem from="1767874241269" duration="1358000" />
+      <workItem from="1767878641314" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="    prompt = [&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: example_prompt},&#10;        {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: example_blog},&#10;        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: input_data.prompt},&#10;    ]">
       <option name="closed" value="true" />
@@ -209,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745861635311</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 \&#10;RAY_memory_usage_threshold=0.8 \&#10;PYTORCH_ALLOC_CONF=expandable_segments:True \&#10;CUDA_VISIBLE_DEVICES=0,1 \&#10;python -m vllm.entrypoints.openai.api_server \&#10;    --model Qwen/Qwen3-4B-Thinking-2507 \&#10;    --served-model-name Qwen/Qwen3-4B-Thinking-2507 \&#10;    --trust-remote-code \&#10;    --port 8083 \&#10;    --tensor-parallel-size 2 \&#10;    --gpu-memory-utilization 0.95 \&#10;    --swap-space 1">
+      <option name="closed" value="true" />
+      <created>1767801823375</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767801823375</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +243,7 @@
     <MESSAGE value="write_book.sh" />
     <MESSAGE value="run_deepseek.sh" />
     <MESSAGE value="write_longwriter5.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="write_longwriter5.sh" />
+    <MESSAGE value="#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 \&#10;RAY_memory_usage_threshold=0.8 \&#10;PYTORCH_ALLOC_CONF=expandable_segments:True \&#10;CUDA_VISIBLE_DEVICES=0,1 \&#10;python -m vllm.entrypoints.openai.api_server \&#10;    --model Qwen/Qwen3-4B-Thinking-2507 \&#10;    --served-model-name Qwen/Qwen3-4B-Thinking-2507 \&#10;    --trust-remote-code \&#10;    --port 8083 \&#10;    --tensor-parallel-size 2 \&#10;    --gpu-memory-utilization 0.95 \&#10;    --swap-space 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="#!/usr/bin/env bash&#10;RAY_memory_monitor_refresh_ms=0 \&#10;RAY_memory_usage_threshold=0.8 \&#10;PYTORCH_ALLOC_CONF=expandable_segments:True \&#10;CUDA_VISIBLE_DEVICES=0,1 \&#10;python -m vllm.entrypoints.openai.api_server \&#10;    --model Qwen/Qwen3-4B-Thinking-2507 \&#10;    --served-model-name Qwen/Qwen3-4B-Thinking-2507 \&#10;    --trust-remote-code \&#10;    --port 8083 \&#10;    --tensor-parallel-size 2 \&#10;    --gpu-memory-utilization 0.95 \&#10;    --swap-space 1" />
   </component>
 </project>
